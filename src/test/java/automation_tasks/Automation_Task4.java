@@ -46,8 +46,7 @@ public class Automation_Task4 {
 		driver.findElement(By.xpath("//button[@name='add-to-cart-sauce-labs-fleece-jacket']")).click();
 		driver.findElement(By.xpath("//button[@name='add-to-cart-sauce-labs-bike-light']")).click();
 		driver.findElement(By.xpath("//a[@class='shopping_cart_link']")).click();
-
-		driver.findElement(By.id("remove-sauce-labs-backpack")).click();
+        driver.findElement(By.id("remove-sauce-labs-backpack")).click();
 		driver.findElement(By.id("remove-sauce-labs-fleece-jacket")).click();
 		driver.findElement(By.id("remove-sauce-labs-bike-light")).click();
 

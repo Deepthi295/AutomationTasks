@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automation_tasks.Automation_Task4">
+      <class name="automation_tasks.Automation_task_3">
         <methods>
-          <include name="SetUp"/>
-          <include name="VerifyEmptyCheckout"/>
-          <include name="quit"/>
+          <include name="FormSubmission" invocation-numbers="0 1 2"/>
         </methods>
-      </class> <!-- automation_tasks.Automation_Task4 -->
+      </class> <!-- automation_tasks.Automation_task_3 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
