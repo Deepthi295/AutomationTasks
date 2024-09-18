@@ -5,7 +5,7 @@ Feature: Login Functionality
     When the user navigates to the URL "https://practice.expandtesting.com/login"
     Then the user enters username as "practice"
     And the user enters password as "SuperSecretPassword!"
-    Then user is able to close the driver
+    Then us7er is able to close the driver
 
 
  @tag2
@@ -14,7 +14,7 @@ Feature: Login Functionality
     When I check for the <lastname> in step
     Then I verify the <password> in step
     
-
+login
     Examples: 
       |firstname  | value | status  |
       | name1 |     5 | success |
